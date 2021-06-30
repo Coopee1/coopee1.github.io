@@ -176,7 +176,7 @@
   
   
   <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="en">
-    <link itemprop="mainEntityOfPage" href="http://example.com/2021/05/26/MongoDB%20mongo-express%E8%BF%9C%E7%A8%8B%E4%BB%A3%E7%A0%81%E6%89%A7%E8%A1%8C%E5%8F%8D%E5%BC%B9shell/">
+    <link itemprop="mainEntityOfPage" href="http://example.com/2021/06/30/MongoDB%20mongo-express%E8%BF%9C%E7%A8%8B%E4%BB%A3%E7%A0%81%E6%89%A7%E8%A1%8C%E5%8F%8D%E5%BC%B9shell/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="image" content="/images/avatar.gif">
@@ -190,7 +190,7 @@
       <header class="post-header">
         <h2 class="post-title" itemprop="name headline">
           
-            <a href="/2021/05/26/MongoDB%20mongo-express%E8%BF%9C%E7%A8%8B%E4%BB%A3%E7%A0%81%E6%89%A7%E8%A1%8C%E5%8F%8D%E5%BC%B9shell/" class="post-title-link" itemprop="url">Untitled</a>
+            <a href="/2021/06/30/MongoDB%20mongo-express%E8%BF%9C%E7%A8%8B%E4%BB%A3%E7%A0%81%E6%89%A7%E8%A1%8C%E5%8F%8D%E5%BC%B9shell/" class="post-title-link" itemprop="url">MongoDB mongo-express远程代码执行反弹shell</a>
         </h2>
 
         <div class="post-meta">
@@ -199,16 +199,10 @@
                 <i class="far fa-calendar"></i>
               </span>
               <span class="post-meta-item-text">Posted on</span>
+              
 
-              <time title="Created: 2021-05-26 20:15:54" itemprop="dateCreated datePublished" datetime="2021-05-26T20:15:54+08:00">2021-05-26</time>
+              <time title="Created: 2021-06-30 10:55:32 / Modified: 10:59:44" itemprop="dateCreated datePublished" datetime="2021-06-30T10:55:32+08:00">2021-06-30</time>
             </span>
-              <span class="post-meta-item">
-                <span class="post-meta-item-icon">
-                  <i class="far fa-calendar-check"></i>
-                </span>
-                <span class="post-meta-item-text">Edited on</span>
-                <time title="Modified: 2021-06-30 10:33:11" itemprop="dateModified" datetime="2021-06-30T10:33:11+08:00">2021-06-30</time>
-              </span>
 
           
 
@@ -224,7 +218,73 @@
           <h1 id="MongoDB-mongo-express远程代码执行反弹shell"><a href="#MongoDB-mongo-express远程代码执行反弹shell" class="headerlink" title="MongoDB mongo-express远程代码执行反弹shell"></a>MongoDB mongo-express远程代码执行反弹shell</h1><h2 id="漏洞描述"><a href="#漏洞描述" class="headerlink" title="漏洞描述"></a>漏洞描述</h2><p>漏洞问题出在lib/bson.js中的toBSON()函数中，路由 /checkValid 从外部接收输入，并调用了存在 RCE 漏洞的代码，由此存在被攻击的风险。</p>
           <!--noindex-->
             <div class="post-button">
-              <a class="btn" href="/2021/05/26/MongoDB%20mongo-express%E8%BF%9C%E7%A8%8B%E4%BB%A3%E7%A0%81%E6%89%A7%E8%A1%8C%E5%8F%8D%E5%BC%B9shell/#more" rel="contents">
+              <a class="btn" href="/2021/06/30/MongoDB%20mongo-express%E8%BF%9C%E7%A8%8B%E4%BB%A3%E7%A0%81%E6%89%A7%E8%A1%8C%E5%8F%8D%E5%BC%B9shell/#more" rel="contents">
+                Read more &raquo;
+              </a>
+            </div>
+          <!--/noindex-->
+        
+      
+    </div>
+
+    
+    
+    
+      <footer class="post-footer">
+        <div class="post-eof"></div>
+      </footer>
+  </article>
+  
+  
+  
+
+      
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="en">
+    <link itemprop="mainEntityOfPage" href="http://example.com/2021/06/30/%E7%94%A8%E5%8F%8B-NC-bsh-servlet-BshServlet-%E8%BF%9C%E7%A8%8B%E5%91%BD%E4%BB%A4%E6%89%A7%E8%A1%8C%E6%BC%8F%E6%B4%9E/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="Coopee">
+      <meta itemprop="description" content="">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Coopee Blog">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          
+            <a href="/2021/06/30/%E7%94%A8%E5%8F%8B-NC-bsh-servlet-BshServlet-%E8%BF%9C%E7%A8%8B%E5%91%BD%E4%BB%A4%E6%89%A7%E8%A1%8C%E6%BC%8F%E6%B4%9E/" class="post-title-link" itemprop="url">用友 NC bsh.servlet.BshServlet 远程命令执行漏洞</a>
+        </h2>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-calendar"></i>
+              </span>
+              <span class="post-meta-item-text">Posted on</span>
+              
+
+              <time title="Created: 2021-06-30 10:55:32 / Modified: 11:34:35" itemprop="dateCreated datePublished" datetime="2021-06-30T10:55:32+08:00">2021-06-30</time>
+            </span>
+
+          
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+          <h1 id="用友-NC-bsh-servlet-BshServlet-远程命令执行漏洞"><a href="#用友-NC-bsh-servlet-BshServlet-远程命令执行漏洞" class="headerlink" title="用友 NC bsh.servlet.BshServlet 远程命令执行漏洞"></a>用友 NC bsh.servlet.BshServlet 远程命令执行漏洞</h1><h2 id="漏洞描述"><a href="#漏洞描述" class="headerlink" title="漏洞描述"></a>漏洞描述</h2><p>用友 NC bsh.servlet.BshServlet 存在远程命令执行漏洞，通过BeanShell 执行远程命令获取服务器权限</p>
+          <!--noindex-->
+            <div class="post-button">
+              <a class="btn" href="/2021/06/30/%E7%94%A8%E5%8F%8B-NC-bsh-servlet-BshServlet-%E8%BF%9C%E7%A8%8B%E5%91%BD%E4%BB%A4%E6%89%A7%E8%A1%8C%E6%BC%8F%E6%B4%9E/#more" rel="contents">
                 Read more &raquo;
               </a>
             </div>
@@ -309,9 +369,13 @@
   <nav class="site-state">
       <div class="site-state-item site-state-posts">
           <a href="/archives">
-          <span class="site-state-item-count">1</span>
+          <span class="site-state-item-count">2</span>
           <span class="site-state-item-name">posts</span>
         </a>
+      </div>
+      <div class="site-state-item site-state-tags">
+        <span class="site-state-item-count">1</span>
+        <span class="site-state-item-name">tags</span>
       </div>
   </nav>
 </div>
